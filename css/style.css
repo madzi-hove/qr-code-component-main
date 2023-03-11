@@ -8,13 +8,44 @@
 	--dark-blue: hsl(218, 44%, 22%);
 }
 
+html,
+body {
+	block-size: 100%;
+}
+
 body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	background-color: var(--light-grey);
 	font-family: "Outfit", sans-serif;
 }
+
+.container {
+	background-color: var(--white);
+	text-align: center;
+	max-inline-size: 300px;
+	padding: 1rem 1rem 2rem;
+	border-radius: 1rem;
+	margin-bottom: 5rem;
+}
+
+.image {
+	inline-size: 100%;
+	border-radius: 1rem;
+}
+
+.main__heading {
+	font-size: 1.6rem;
+}
+
+.main__text {
+	font-size: 0.9375rem;
+	inline-size: 80%;
+	margin: 0 auto;
+}
+
 .attribution {
 	font-size: 11px;
 	text-align: center;
